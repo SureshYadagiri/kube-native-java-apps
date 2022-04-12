@@ -206,7 +206,8 @@ mvn quarkus:add-extension -Dextension=quarkus-smallrye-fault-tolerance
 
 === Add Retry to ActivityService
 
-Let's add the retry policy in `ActivityViceService`.
+Let's add the retry policy in `ActivityService`.
+
 
 Change the `ActivityService` Java interface in `src/main/java` in the `org.acme` package with the following contents:
 
